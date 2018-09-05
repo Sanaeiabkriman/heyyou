@@ -13,7 +13,7 @@
 
     <!-- As a heading -->
     <nav class="navbar navbar-light ">
-        <a class="navbar-brand text-light" href="#">Sanae </a>
+        <a class="navbar-brand text-light soun">Iabkriman Sanae </a>
         <div class="links">
             <a href="">Start</a>
             <a href="">About me</a>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{url('css/app.css')}}">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <title>About me</title>
 </head>
@@ -17,8 +17,6 @@
     <div class="container mt-5">
         <div class="row">
             <div class="left col-5">
-            <img src="/images/about-2.jpeg" alt="">
-
             </div>
             <div class="right col-7">
                 <h3>About me</h3>

@@ -15551,10 +15551,21 @@ body {
   background-image: url(/images/header-bg4.jpeg?74bbaa279ff31cdc3db01d3f540204bf);
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   height: 100vh;
   margin: 0;
+}
+
+body .soun {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body .navbar {
@@ -15608,6 +15619,7 @@ body .links > a {
   letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body .m-b-md {
@@ -15615,10 +15627,16 @@ body .m-b-md {
 }
 
 .container {
-  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.container .left {
-  background-image: url("");
+.container .row .left {
+  background-image: url(/images/about6.jpeg?4de7726063090df5a0445beb233c2a38);
+  background-size: contain;
+  background-size: 100%;
+}
+
+.container .row .right {
+  background-color: white;
 }
 
