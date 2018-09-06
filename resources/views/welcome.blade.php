@@ -14,7 +14,8 @@
     <body>
         @include('./partials/header')
         @include('./partials/about')
-
-       
+        @include('./partials/offer')
+        @include('./partials/compteur')
+        @include('./partials/gallerie')
     </body>
 </html>

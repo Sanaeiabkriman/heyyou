@@ -5,7 +5,7 @@ body
   background-size: 100%
   font-family: 'Montserrat', sans-serif
   font-weight: 200
-  height: 100vh
+  height: 20vh
   margin: 0
 
   .soun
@@ -13,7 +13,6 @@ body
     padding: 0 25px
     font-size: 12px
     font-weight: 600
-    letter-spacing: .1rem
     text-decoration: none
     text-transform: uppercase
     font-family: 'Montserrat', sans-serif
@@ -35,21 +34,17 @@ body
   .position-ref 
       position: relative
   
-
   .top-right 
       position: absolute
       right: 10px
       top: 18px
-  
 
   .content 
       text-align: center
   
-
   .title 
       font-size: 84px
   
-
   .links>a 
       color: #636b6f
       padding: 0 25px
@@ -60,22 +55,47 @@ body
       text-transform: uppercase
       font-family: 'Montserrat', sans-serif
   
-
   .m-b-md 
       margin-bottom: 30px
     
 
 // About me
+#presentation 
+    .container
+        font-family: 'Montserrat', sans-serif
+        max-width: 85% !important
+        height: 50vh
 
-.container
-    font-family: 'Montserrat', sans-serif
-    .row
-        .left
-            background-image: url('../../../images/about6.jpeg')
-            background-size: contain
-            background-size: 100%
-            
-        .right
-            background-color: white
 
-           
+        .row
+            .left
+                background-image: url('/images/about6.jpeg')
+                background-size: 100%
+                background-position: center
+            .right
+                background-color: white
+                padding-bottom: 50px
+
+// my offer
+#offer
+    background-color: #eaeaea
+    i
+        font-size: 3.5vh
+    
+    .hvr:hover
+        i
+            color: #636b6f
+            transform: scale(1.5)
+
+// Compteur 
+#compteur  
+    background-color: black
+    height: 30vh
+    i 
+        font-size: 3.5vh
+
+// Gallerie
+#gallerie 
+
+
+        

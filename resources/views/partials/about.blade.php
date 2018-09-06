@@ -13,24 +13,40 @@
 </head>
 
 <body>
-<div>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="left col-5">
-            </div>
-            <div class="right col-7">
-                <h3>About me</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil temporibus maxime id, aliquid accusantium eum reiciendis iste. Doloribus, autem corporis! Tempora, error ratione! Quaerat modi quia debitis sint beatae voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae tempore itaque aspernatur facilis in perspiciatis molestiae. Porro eius possimus doloribus sapiente vel exercitationem nam deserunt odio, eum vitae sunt.
-                Doloribus adipisci blanditiis, ullam ipsum aut repudiandae officia a delectus maiores debitis saepe mollitia expedita totam sed facere voluptate recusandae ducimus sapiente perspiciatis? Fugit quibusdam magnam quos quisquam nesciunt tenetur.
-                Accusamus perferendis libero voluptas totam, alias incidunt dolores eum facere cum! Delectus, quaerat rem ullam, reprehenderit obcaecati labore dolore quibusdam quas doloremque quasi hic quisquam! Dolor harum autem dicta sint.
-                Veniam ad eligendi laboriosam dolore sapiente repudiandae id eos voluptatem consectetur? Reiciendis eveniet repellat quis omnis iste expedita harum, odio, similique maxime consequuntur dolores facere culpa, quaerat tenetur soluta! Dolore!
-                Excepturi, eligendi placeat? Alias quos laudantium saepe deleniti labore aut numquam ea, nostrum sequi quam! Iusto nemo nisi alias, assumenda eveniet quasi delectus id laborum blanditiis iste corporis recusandae aliquam! </p>
-                
+    <div id="presentation">
+        <div class="container mt-5 mb-5 ">
+            <div class="row pb-5">
+                <div class="left col-5 bg-dark ">
+                </div>
+                <div class="right col-7">
+                    <h3 class="font-weight-bold m-5 text-center">HELLO I AM Sanae </h3>
+                    <p class="m-3 pt-2 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+                        temporibus maxime id, aliquid accusantium eum reiciendis iste. Doloribus, autem corporis!
+                        Tempora, error ratione!
+                        <br>
+                        <br>
+                        Quaerat modi quia debitis sint beatae voluptate. Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Inventore beatae tempore itaque aspernatur facilis in perspiciatis molestiae.
+                        <br>
+                        <br>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quod facere soluta sed
+                        adipisci quidem facilis.
+                        Blandiorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quod facere soluta
+                        sed adipisci quidem facilis. Blanditiis quod facere soluta sed adipisci quidem facilis.</p>
+                    <br>
+                    <div class="text-center">
+                        <button class="border border-dark bg-white px-4 py-2 m-2"> Achète !</button>
+                        <button class="border border-dark bg-white px-4 py-2 m-2"> Clique !</button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-</div>
-    
+
+
+
+
 </body>
 
 </html>

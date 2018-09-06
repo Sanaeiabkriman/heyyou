@@ -15553,7 +15553,7 @@ body {
   background-size: 100%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  height: 100vh;
+  height: 20vh;
   margin: 0;
 }
 
@@ -15562,7 +15562,6 @@ body .soun {
   padding: 0 25px;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: .1rem;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -15626,17 +15625,43 @@ body .m-b-md {
   margin-bottom: 30px;
 }
 
-.container {
+#presentation .container {
   font-family: 'Montserrat', sans-serif;
+  max-width: 85% !important;
+  height: 50vh;
 }
 
-.container .row .left {
-  background-image: url(/images/about6.jpeg?4de7726063090df5a0445beb233c2a38);
-  background-size: contain;
+#presentation .container .row .left {
+  background-image: url("/images/about6.jpeg");
   background-size: 100%;
+  background-position: center;
 }
 
-.container .row .right {
+#presentation .container .row .right {
   background-color: white;
+  padding-bottom: 50px;
+}
+
+#offer {
+  background-color: #eaeaea;
+}
+
+#offer i {
+  font-size: 3.5vh;
+}
+
+#offer .hvr:hover i {
+  color: #636b6f;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+#compteur {
+  background-color: black;
+  height: 30vh;
+}
+
+#compteur i {
+  font-size: 3.5vh;
 }
 
