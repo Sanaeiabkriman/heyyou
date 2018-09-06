@@ -9,33 +9,42 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <title>My offer</title>
+    <title>My PORTFOLIO</title>
 </head>
 
 <body>
     <section id="gallerie" class="p-5">
-        <div class="container">
+        <div class="">
             <div class="headline">
                 <h3 class="text-center text-black m-5">MY PORTFOLIO</h3>
             </div>
             <div class="row text-center text-black">
-                <div class="col-3 hvr">
+                <div class="col-3 hvr px-0">
                     <img src="/images/gallerie1.jpeg" alt="">
                 </div>
-                <div class="col-3 hvr">
-                    <i class="fas fa-magic p-4"></i>
-                    <h6>WEB DESIGN</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie2.jpeg" alt="">
                 </div>
-                <div class="col-3 hvr">
-                    <i class="fas fa-laptop p-4"></i>
-                    <h6>WEB DEVELOPPEMENT</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie3.jpeg" alt="">
                 </div>
-                <div class="col-3 hvr">
-                    <i class="fas fa-mobile-alt p-4"></i>
-                    <h6>MOBILE-APPS</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie8.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="row text-center text-black ">
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie5.jpeg" alt="">
+                </div>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie6.jpeg" alt="">
+                </div>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie7.jpeg" alt="">
+                </div>
+                <div class="col-3 hvr px-0">
+                    <img src="/images/gallerie4.jpeg" alt="">
                 </div>
             </div>
 

@@ -15644,6 +15644,7 @@ body .m-b-md {
 
 #offer {
   background-color: #eaeaea;
+  height: 50vh;
 }
 
 #offer i {
@@ -15663,5 +15664,15 @@ body .m-b-md {
 
 #compteur i {
   font-size: 3.5vh;
+}
+
+#gallerie {
+  height: 50vh;
+}
+
+#gallerie img {
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
 
