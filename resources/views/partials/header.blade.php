@@ -1,6 +1,3 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,14 +22,13 @@
     </nav>
 </head>
 
-<body>
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md text-white">
-                 <span>Hey </span><span class="font-weight-bold">You !</span>
-            </div>
+
+<div class="flex-center position-ref full-height">
+    <div class="content">
+        <div class="title m-b-md text-white">
+                <span>Hey </span><span class="font-weight-bold">You !</span>
         </div>
     </div>
-</body>
+</div>
 
-</html>
+

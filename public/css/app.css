@@ -15548,7 +15548,7 @@ a.text-dark:focus {
 }
 
 body {
-  background-image: url(/images/header-bg4.jpeg?74bbaa279ff31cdc3db01d3f540204bf);
+  background-image: url("/images/header-bg4.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -15668,11 +15668,74 @@ body .m-b-md {
 
 #gallerie {
   height: 50vh;
+  display: inline-block;
 }
 
 #gallerie img {
   height: 100%;
   width: 100%;
+  background-color: black;
+}
+
+#gallerie a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#contacts {
+  max-width: 60% !important;
+  color: #636b6f;
+}
+
+#contacts .blacksquare {
+  background-color: black;
+  color: #636b6f;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+
+#contacts input {
+  background-color: black;
+  border-color: black;
+  border-bottom-color: white;
+}
+
+#contacts .feelfree {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+
+#contacts .feelfree p {
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+#contacts .feelfree i {
+  font-size: 15px;
+  padding: 20px;
+  background-color: black;
+  margin: 10px;
+}
+
+#contacts .feelfree span {
+  color: black;
+  font-size: 10px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+#footer {
   background-color: black;
 }
 

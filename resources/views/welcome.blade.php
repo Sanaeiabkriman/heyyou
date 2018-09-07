@@ -17,5 +17,7 @@
         @include('./partials/offer')
         @include('./partials/compteur')
         @include('./partials/gallerie')
+        @include('./partials/contacts')
+        @include('./partials/footer')
     </body>
 </html>
