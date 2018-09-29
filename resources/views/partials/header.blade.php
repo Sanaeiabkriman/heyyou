@@ -9,15 +9,15 @@
     <title>HEADER</title>
 
     <!-- As a heading -->
-    <nav class="navbar navbar-light ">
+    <nav class="navbar navbar-light" id="head">
         <a class="navbar-brand text-light soun">Iabkriman Sanae </a>
         <div class="links">
-            <a href="">Start</a>
-            <a href="">About me</a>
-            <a href="">Service</a>
-            <a href="">Portfolio</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
+            <a href="#presentation">About me</a>
+            <a href="#offer">Service</a>
+            <a href="#gallerie">Portfolio</a>
+            <a href="#contacts">Contact</a>
+            <a class="text-secondary" href="/admin/home">login</a>
+
         </div>
     </nav>
 </head>

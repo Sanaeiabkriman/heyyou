@@ -15635,6 +15635,7 @@ body .m-b-md {
   background-image: url("/images/about6.jpeg");
   background-size: 100%;
   background-position: center;
+  height: 50vh;
 }
 
 #presentation .container .row .right {
@@ -15683,8 +15684,15 @@ body .m-b-md {
 }
 
 #contacts {
-  max-width: 60% !important;
+  max-width: 80% !important;
   color: #636b6f;
+  height: 80vh;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #contacts .blacksquare {
@@ -15704,11 +15712,15 @@ body .m-b-md {
   border-bottom-color: white;
 }
 
+#contacts input:focus {
+  outline: none;
+}
+
 #contacts .feelfree {
   color: black;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 #contacts .feelfree p {
@@ -15720,10 +15732,15 @@ body .m-b-md {
 }
 
 #contacts .feelfree i {
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
   background-color: black;
   margin: 10px;
+}
+
+#contacts .feelfree .position {
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 #contacts .feelfree span {
@@ -15736,6 +15753,21 @@ body .m-b-md {
 }
 
 #footer {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
   background-color: black;
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 30px;
+  height: 20vh;
+}
+
+#footer .container {
+  max-width: 80%;
+}
+
+#footer .container .rs i {
+  padding: 2px;
+  font-size: 20px;
 }
 
