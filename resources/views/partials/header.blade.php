@@ -9,26 +9,24 @@
     <title>HEADER</title>
 
     <!-- As a heading -->
-    <nav class="navbar navbar-light" id="head">
-        <a class="navbar-brand text-light soun">Iabkriman Sanae </a>
+</head>
+
+<header class="header">
+    <nav class="navbar d-flex justify-content-between m-0">
+        <a class="navbar-brand text-light p-0 pl-1 soun">æ .</a>
         <div class="links">
             <a href="#presentation">About me</a>
             <a href="#offer">Service</a>
             <a href="#gallerie">Portfolio</a>
             <a href="#contacts">Contact</a>
             <a class="text-secondary" href="/admin/home">login</a>
-
         </div>
     </nav>
-</head>
-
-
-<div class="flex-center position-ref full-height">
-    <div class="content">
-        <div class="title m-b-md text-white">
-                <span>Hey </span><span class="font-weight-bold">You !</span>
+    <div class="contenu position-relative d-flex flex-row-reverse pr-5">
+        <div class="sae text-white text-center m-5">
+            <p>æ</p>
         </div>
     </div>
-</div>
 
 
+</header>

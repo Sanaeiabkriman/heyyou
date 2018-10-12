@@ -114,7 +114,11 @@ return [
             'url'         => 'admin/adpresentation',
             'icon'        => 'file',
         ],
-
+        [
+            'text'        => 'Offer',
+            'url'         => 'admin/adoffer',
+            'icon'        => 'file',
+        ],
        
         'ACCOUNT SETTINGS',
         [

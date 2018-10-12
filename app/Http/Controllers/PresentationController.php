@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\presentation;
 use Illuminate\Http\Request;
-
+use Storage;
 class PresentationController extends Controller
 {
     /**
@@ -25,7 +25,14 @@ class PresentationController extends Controller
      */
     public function create(Request $request)
     {
-
+        $img=$request->file('image')->store('/public/images');
+        // dd($img);
+        $new = new presentation;
+        $new->titre = $request->titre;
+        $new->description = $request->description;
+        $new->image=$img;
+        $new->save();
+        return redirect ('/admin/adpresentation');
     }
 
     /**
@@ -59,7 +66,7 @@ class PresentationController extends Controller
     public function edit($id)
     {
         $modif=presentation::find($id);
-        return view ('/admin/edit',compact('modif'));
+        return view ('/admin/editpresentation',compact('modif'));
     }
 
     /**
@@ -71,9 +78,16 @@ class PresentationController extends Controller
      */
     public function update(Request $request, presentation $presentation, $id)
     {
+        $img=$request->file('image');
         $modif = presentation::find($id);
         $modif->titre = $request->titre;
         $modif->description = $request->description;
+        if ($img !=null){
+            Storage::delete($modif->image);
+            $modif->image =$request->file('image')->store('/public/images');
+        }else{
+            $modif->image=$modif->image;
+        }
         $modif->save();
         return redirect('/admin/adpresentation');
 
@@ -85,8 +99,11 @@ class PresentationController extends Controller
      * @param  \App\presentation  $presentation
      * @return \Illuminate\Http\Response
      */
-    public function destroy(presentation $presentation)
+    public function destroy($id)
     {
-        //
+        $effacer=presentation::find($id);
+        Storage::delete($effacer->image);
+        $effacer->delete();
+        return redirect ('/admin/adpresentation');
     }
 }

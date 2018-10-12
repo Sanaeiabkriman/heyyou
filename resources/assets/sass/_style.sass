@@ -1,92 +1,101 @@
 // HEADER
-body 
-  background-image: url('/images/header-bg4.jpeg')
-  background-repeat: no-repeat
-  background-size: 100%
-  font-family: 'Montserrat', sans-serif
-  font-weight: 200
-  height: 20vh
-  margin: 0
-
-  .soun
-    color: #636b6f
-    padding: 0 25px
-    font-size: 12px
-    font-weight: 600
-    text-decoration: none
-    text-transform: uppercase
+.header
+    background-image: url('/images/orchid.jpeg')
+    background-color: black
+    background-repeat: no-repeat
+    background-size: 180vh
+    background-attachment: fixed
     font-family: 'Montserrat', sans-serif
-
-  .navbar
-    background-color: #252525
-    a:hover 
-      color: white
-      text-decoration: underline
-
-  .full-height 
+    font-weight: 200
     height: 100vh
+    margin: 0
+    box-shadow: 5px 10px 18px #888888
+ 
+  
+    .navbar
+        background-color: #0b0b0b
+        border-bottom: 1px solid #1c1a19a8
 
-  .flex-center 
-      align-items: center
-      display: flex
-      justify-content: center
-  
-  .position-ref 
-      position: relative
-  
-  .top-right 
-      position: absolute
-      right: 10px
-      top: 18px
+        a:hover 
+            color: #e3d6c9
+            text-decoration: none
 
-  .content 
-      text-align: center
+    .soun
+        font-size: 20px
+        font-weight: 600
+        // text-transform: uppercase
+
+    .links>a 
+        color: #636b6f
+        padding: 0 25px
+        font-size: 12px
+        font-weight: 600
+        letter-spacing: .1rem
+        text-decoration: none
+        text-transform: uppercase
+        font-family: 'Montserrat', sans-serif
   
-  .title 
-      font-size: 84px
-  
-  .links>a 
-      color: #636b6f
-      padding: 0 25px
-      font-size: 12px
-      font-weight: 600
-      letter-spacing: .1rem
-      text-decoration: none
-      text-transform: uppercase
-      font-family: 'Montserrat', sans-serif
-  
-  .m-b-md 
-      margin-bottom: 30px
-    
+    .contenu
+        text-align: center
+        .sae
+            font-size: 100px
+            font-family: 'Bellefair', serif
+            margin-top: 25px
+            font-size: 15vh
+            text-align: center
+            animation: fadein 5s
+            -webkit-animation: fadein 5s
+            @keyframes fadein
+                from
+                    opacity: 0
+                to
+                    opacity: 1
+                p
+                    color:#e3d6c9
+
+
 
 // About me
 #presentation 
+
     .container
         font-family: 'Montserrat', sans-serif
         max-width: 85% !important
         height: 50vh
 
-
         .row
-            .left
-                background-image: url('/images/about6.jpeg')
-                background-size: 100%
-                background-position: center
-                height: 50vh
+            box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, .2)
+            .left               
+                img
+                    width: 100%
+                    height: auto
             .right
+                font-family: 'Monserrat', sans-serif
                 background-color: white
                 padding-bottom: 50px
+                p
+                    font-family: 'Nunito', sans-serif
+                    font-size: 16px
+
+
 
 // my offer
 #offer
-    background-color: #eaeaea
+    background-image: url('/images/roches.jpg')
+    background-color: black
+    background-repeat: no-repeat
+    background-size: 180vh
+    background-attachment: fixed
+
+    margin: 0
     height: 50vh
     i
         font-size: 3.5vh
+        
     
     .hvr:hover
         i
-            color: #636b6f
+            color: #24152a
             transform: scale(1.5)
 
 // Compteur 
@@ -94,7 +103,27 @@ body
     background-color: black
     height: 30vh
     i 
-        font-size: 3.5vh
+        font-size: 6vh
+    .fa-html5:hover
+        color: #e35245
+        transform: scale(1.2)
+    .fa-css3-alt:hover
+        color:  #0070bb
+        transform: scale(1.2)
+    .fa-sass:hover
+        color:  #cd6699
+        transform: scale(1.2)
+    .fa-js-square:hover
+        color:  #f7e046
+        transform: scale(1.2)
+    .fa-vuejs:hover
+        color:  #43b883
+        transform: scale(1.2)
+    .fa-laravel:hover
+        color:  #f6484c
+        transform: scale(1.2)
+
+       
 
 // Gallerie
 #gallerie 
@@ -107,6 +136,9 @@ body
     a:hover
         text-decoration: underline
         color: black
+
+
+
 
 #contacts 
     max-width: 80% !important

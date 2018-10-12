@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\presentation;
-
+use App\Offer;
 use Illuminate\Http\Request;
 
 class SiteController extends Controller
@@ -15,7 +15,10 @@ class SiteController extends Controller
     public function index()
     {
         $donnees = presentation::all();
-        return view('welcome',compact('donnees'));
+        $elem = Offer::all();
+        
+        return view('welcome',compact('donnees','elem'));
+
     }
 
     /**
